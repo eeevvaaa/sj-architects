@@ -221,7 +221,9 @@ img {
   cursor: pointer;
 }
 .main-navigation .expanded-nav {
-  width: 100%;
+  max-width: 850px;
+  width: 95%;
+  margin: 0 auto;
   height: 539px;
   padding-top: 50px;
 }
@@ -235,15 +237,16 @@ img {
 .main-navigation .expanded-nav .open-menu {
   max-width: 850px;
   width: 100%;
-  position: absolute;
-  margin: -89px 0 0 89.4%;
+  display: flex;
+  justify-content: flex-end;
+  margin: -89px auto 0;
   cursor: pointer;
 }
 @media (max-width: 320px) {
   .main-navigation .expanded-nav .open-menu {
     max-width: 320px;
-    width: 100%;
-    margin-left: 86%;
+    width: 95%;
+    margin-left: 90%;
   }
 }
 .main-navigation .expanded-nav .navigation {
@@ -267,7 +270,7 @@ img {
   cursor: pointer;
 }
 .main-navigation .expanded-nav .navigation .nav-link:hover {
-  color: #3B2C1C;
+  color: #3b2c1c;
 }
 .home-header {
   max-width: 1024px;
